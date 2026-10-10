@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Users, BookOpen, UserCheck, Clock } from "lucide-react";
 
-export const Route = createFileRoute("/admin")({
+export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
       { title: "لوحة الإدارة — منصة المهندس أحمد جمال" },

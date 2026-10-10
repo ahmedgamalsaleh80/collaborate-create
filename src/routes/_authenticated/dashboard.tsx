@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { BookOpen, CheckCircle2, TrendingUp, PlayCircle } from "lucide-react";
 
-export const Route = createFileRoute("/dashboard")({
+export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({
     meta: [
       { title: "لوحة الطالب — منصة المهندس أحمد جمال" },
